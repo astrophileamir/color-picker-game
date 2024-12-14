@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#color-box {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+
+#choices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
